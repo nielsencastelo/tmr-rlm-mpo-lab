@@ -1,0 +1,29 @@
+{
+  "nonrag_recursive_pipeline": {
+    "em": 0.2,
+    "f1": 0.18711867279556332,
+    "cite_precision": 0.7333333333333333,
+    "cite_recall": 0.8,
+    "wall_ms": 212120.594921875,
+    "prompt_tokens": 4559.8,
+    "output_tokens": 2477.6
+  },
+  "baseline_context_stuffing": {
+    "em": 0.4,
+    "f1": 0.11854888296782128,
+    "cite_precision": 0.8,
+    "cite_recall": 0.9,
+    "wall_ms": 13073.049462890625,
+    "prompt_tokens": 830.0,
+    "output_tokens": 174.8
+  },
+  "baseline_simple_rag": {
+    "em": 0.4,
+    "f1": 0.13734604505091932,
+    "cite_precision": 1.0,
+    "cite_recall": 0.9,
+    "wall_ms": 11166.6427734375,
+    "prompt_tokens": 312.6,
+    "output_tokens": 157.4
+  }
+}
